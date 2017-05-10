@@ -429,7 +429,7 @@ public class App {
 	        String topic        = "/sigfox";
 	        String content      = dataToJson(model.getPost(Integer.toString(a)));
 	        int qos             = 2;
-	        String broker       = "tcp://203.0.113.124:1883";
+	        String broker       = "Mqtt ip address";
 	        String clientId     = "DataTest";
 	        MemoryPersistence persistence = new MemoryPersistence();
 	       
